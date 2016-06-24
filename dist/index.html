@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <title>My Note</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <div id="fullscreen">
+<div class="header">
+  <h1>My Note</h1>
+  <div class="menu">
+    <button class="btn-newnote">새노트</button>
+    <button class="btn-savenote">노트저장</button>
+    <button class="btn-about">about</button>
+    <button class="btn-full">전체화면</button>
+  </div>
+</div>
+
+<div class="container">
+  <textarea id="memo" placeholder="내용을 입력하세요"></textarea>
+</div>
+
+  <div id="overlay_t"> </div>
+  <div id="popup" style="display:none">
+    <div style="height:170px">
+      <br>My Note Application</br>
+      <br>@PARK GUN WOO</br>
+      <br>MICE IT</br>
+   </div>
+   <div>
+     <a href="#" id="close" > close </a>
+   </div>
+ </div>
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
